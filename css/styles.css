@@ -1,0 +1,60 @@
+body {
+    background-image: url("wallpaperHealthCare3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: justify;
+}
+
+h1 {
+    background-color: rgb(51, 233, 215);
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+p {
+    font-size: 16px;
+    font-family: Arial;
+    text-indent: none;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+a.button {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color:#fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 300px; 
+    height: 200px;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
